@@ -2,16 +2,19 @@ package by.bsuir.substance;
 
 import java.util.List;
 
+import by.bsuir.pascal.Header;
+
 public class Procedure {
-	private String name;
+	private Header header;
 	private String varSection;
 	private String body;
 	private List<String> variables;
-	public String getName() {
-		return name;
+	private List<String> arguments;
+	public Header getHeader() {
+		return header;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setHeader(Header name) {
+		this.header = name;
 	}
 	public String getVarSection() {
 		return varSection;
@@ -30,5 +33,11 @@ public class Procedure {
 	}
 	public void setVariables(List<String> variables) {
 		this.variables = variables;
+	}
+	public List<String> getArguments() {
+		return arguments;
+	}
+	public void setArguments(List<String> arguments) {
+		this.arguments = arguments;
 	}
 }

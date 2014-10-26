@@ -66,9 +66,12 @@ ByteBool
 WordBool
 LongBool
 Char
+Real
 .
 ,
 [
 ]
+(
+)
 :
 ;
